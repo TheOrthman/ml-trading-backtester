@@ -1,6 +1,3 @@
-# ML-Powered Algorithmic Trading Backtester
-## Overview
-This project is an interactive Streamlit app that compares Buy & Hold, Moving Average Crossover, and ML-based trading strategies using historical market data.
 
 ## 🚀 Quick Demo
 
@@ -28,6 +25,11 @@ Make sure your README shows:
 - Directional accuracy alone is insufficient; **risk-adjusted metrics** matter more.
 - **Confidence filtering** improves Sharpe by trading only high-signal periods.
 - Transaction costs and slippage materially impact naive strategies.
+
+# ML-Powered Algorithmic Trading Backtester
+## Overview
+This project is an interactive Streamlit app that compares Buy & Hold, Moving Average Crossover, and ML-based trading strategies using historical market data.
+
 
 
 ## Features
