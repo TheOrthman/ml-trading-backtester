@@ -96,12 +96,6 @@ The project includes an interactive web app.
 - Run backtest instantly
 - Visualize performance and metrics
 
-### Run Locally
-
-```bash
-pip install -r requirements.txt
-python -m streamlit run app.py
-
 
 📸 Demo
 App Interface
@@ -121,3 +115,11 @@ It does not constitute financial advice or a production trading system.
 👤 Author
 
 Data Scientist focused on building real-world, decision-driven ML systems in finance and operations.
+
+### Run Locally
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
+
+
