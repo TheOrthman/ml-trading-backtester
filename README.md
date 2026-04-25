@@ -2,6 +2,34 @@
 ## Overview
 This project is an interactive Streamlit app that compares Buy & Hold, Moving Average Crossover, and ML-based trading strategies using historical market data.
 
+## 🚀 Quick Demo
+
+1. Run the app:
+```bash
+python -m streamlit run app.py
+2. Enter a ticker (e.g., AAPL), set threshold (0.60), click Run Backtest.
+3. Compare Buy & Hold vs ML vs MA with risk metrics (Return, Sharpe, Max DD).
+
+📸 See screenshots below.
+
+
+---
+
+## 📸 2) Pin your best screenshots
+
+Make sure your README shows:
+- Metrics table (Sharpe > 1 for ML)
+- Strategy comparison chart
+
+---
+
+```md
+## 💡 What I Learned
+- Directional accuracy alone is insufficient; **risk-adjusted metrics** matter more.
+- **Confidence filtering** improves Sharpe by trading only high-signal periods.
+- Transaction costs and slippage materially impact naive strategies.
+
+
 ## Features
 - Download market data using yfinance
 - Create technical indicators and ML features
